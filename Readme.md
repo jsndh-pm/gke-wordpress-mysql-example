@@ -15,7 +15,7 @@
 
     $ sh up.sh
     
-### Destroy:
+### Destroy:
 
     $ sh down.sh
     
