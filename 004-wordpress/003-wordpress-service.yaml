@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: wordpress
+  namespace: wordpress-development
+  labels:
+    app: wordpress
+    tier: frontend
+    env: development
+spec:
+  type: LoadBalancer
+  selector:
+    app: wordpress
+    tier: frontend
+    env: development
+  ports:
+    - protocol: TCP
+      targetPort: 80
+      port: 80
