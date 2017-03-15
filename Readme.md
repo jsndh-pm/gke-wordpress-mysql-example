@@ -2,14 +2,14 @@
 # Readme
 
 
-### Create cluster on GKE (If required):
-
-    $ sh gce-cluster-up.sh
-
 ### Clone:
 
     $ git clone https://github.com/jsndh-pm/gke-wordpress-mysql-example.git
     $ cd gke-wordpress-mysql-example
+
+### Create cluster on GKE (If required):
+
+    $ sh gce-cluster-up.sh
 
 ### Create: 
 
